@@ -2,146 +2,97 @@
 
 # Michael ESSOMBA
 
-### Embedded Systems & Robotics Engineering Student @ ENSIM
+### Final-year Embedded Systems & Robotics Engineering Student @ ENSIM
 
-**Real-time embedded software · Robotics · Electronics · FPGA/VHDL**
+**Embedded software · Robotics · Electronics · Hardware validation**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Michael%20Essomba-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/essomba-michael-84b12643b/)
-[![Email](https://img.shields.io/badge/Email-ENSIM-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:Michael.Essomba_Jabe.Etu@univ-lemans.fr)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Michael%20Essomba-0A66C2?style=flat-square)](https://www.linkedin.com/in/essomba-michael-84b12643b/)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square)](mailto:Michael.Essomba_Jabe.Etu@univ-lemans.fr)
 ![Location](https://img.shields.io/badge/Le%20Mans-France-2F80ED?style=flat-square)
-![English](https://img.shields.io/badge/English-B2-4C8BF5?style=flat-square)
 
-### 🎯 Seeking a 6-month engineering internship from **March 2027** · Mobility: France
+**Seeking a 6-month final-year engineering internship from March 2027 · Mobility: France**
+
+[LinkedIn](https://www.linkedin.com/in/essomba-michael-84b12643b/) · [Email](mailto:Michael.Essomba_Jabe.Etu@univ-lemans.fr)
 
 </div>
-
----
 
 ## About me
 
-Engineering student at **ENSIM – Le Mans University**, specializing in **embedded and real-time systems**.
+Final-year engineering student at **ENSIM – Le Mans University**, specializing in **Embedded and Intelligent Systems**.
 
-I work at the boundary between **software and physical systems**: reading sensors, controlling actuators, designing communication layers and validating behavior on real hardware, from the microcontroller up to the supervision interface.
+I develop software that interacts with real hardware: sensors, actuators, microcontrollers and test equipment. My projects combine **C/Python development, hardware integration, automated testing and technical documentation**.
 
-What I value most is not only making a feature work, but understanding **why it works, how it fails, how it can be measured, and how it can be improved**.
+## Technical skills
 
-<details open>
-<summary><b>GitHub activity 2026</b></summary>
+| Area | Technologies and methods |
+|---|---|
+| **Embedded software** | C · STM32 · PIC16 · GPIO · ADC · PWM · UART · Interrupts · State machines |
+| **Robotics & control** | Mecanum kinematics · Encoders · Odometry · PID fundamentals · Raspberry Pi · Python |
+| **Instrumentation & validation** | LabVIEW · LabWindows/CVI · VISA/SCPI · TCP/IP · Python test campaigns · CSV analysis |
+| **Electronics & digital design** | KiCad · VHDL · Quartus Prime · ModelSim · Cyclone V / DE10-Standard · SolidWorks |
+| **Currently learning / integrating** | FreeRTOS · CAN · ROS 2 |
 
-<img src="https://raw.githubusercontent.com/Mickael235/Mickael235/main/contributions/2026.svg" alt="Contributions 2026" />
-</details>
+## Selected projects
 
-<details>
-<summary><b>2025</b></summary>
-
-<img src="https://raw.githubusercontent.com/Mickael235/Mickael235/main/contributions/2025.svg" alt="Contributions 2025" />
-</details>
-
----
-
-## Skills
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**⚙️ Embedded systems**
-
-C · STM32 · PIC16
-GPIO / ADC / PWM / UART
-Interrupts · State machines
-FreeRTOS · CAN *(in progress)*
-
-</td>
-<td width="33%" valign="top">
-
-**🤖 Robotics & control**
-
-Mecanum kinematics
-Encoders · Odometry · PID
-Raspberry Pi · Python
-ROS2 *(in progress)*
-
-</td>
-<td width="33%" valign="top">
-
-**🔬 Electronics & FPGA**
-
-KiCad · PCB design
-VHDL · Quartus Prime · ModelSim
-Cyclone V / DE10-Standard
-SolidWorks · Instrumentation (VISA / SCPI)
-
-</td>
-</tr>
-</table>
-
----
-
-## Featured project
-
-### 🤖 TopoBot — Autonomous topographic robot
+### 🤖 TopoBot — Topographic robot prototype
 
 <a href="https://github.com/Mickael235/topobot">
-  <img src="https://raw.githubusercontent.com/Mickael235/topobot/main/assets/images/topobot-hero.png" alt="TopoBot" width="100%">
+  <img src="https://raw.githubusercontent.com/Mickael235/topobot/main/assets/images/hero/topobot-hero.png" alt="TopoBot — ENSIM × ESGT topographic robot prototype" width="100%">
 </a>
 
-**Engineering team project — ENSIM × ESGT · 2025–2026**
+**Team project — ENSIM × ESGT · 2025–2026**
 
-A holonomic Mecanum robot that automates topographic surface measurements by moving a reflector across a measurement grid and coordinating with a robotic total station.
+A Mecanum robot designed to move a reflector across a measurement grid for topographic surface measurements.
 
-`STM32 F446RE` · `Raspberry Pi` · `C` · `Python` · `Encoders` · `Odometry` · `PID` · `AX-12` · `XBee` · `KiCad`
+**My contribution:** Mecanum kinematics and movement commands, physical robot testing, encoder/odometry integration, motion-error analysis and AX-12 prism deployment.
 
-**My contribution**
+**Status:** basic movements and prism deployment validated; motion accuracy and closed-loop tuning remain to be improved.
 
-- movement development and validation on the real robot
-- trajectory testing and motion-error analysis from encoder feedback
-- contribution to odometry and motion-control integration
-- mission-point / trajectory handling
-- prototype testing and debugging
+`STM32 F446RE` · `Raspberry Pi` · `C` · `Python` · `Encoders` · `AX-12` · `XBee`
 
-[**Explore the TopoBot repository →**](https://github.com/Mickael235/topobot)
+[**Code, architecture and documentation →**](https://github.com/Mickael235/topobot)
 
----
+### 🔬 FIATSAR — Embedded TinyML robustness
+
+**Final-year research project · Team of two · In progress**
+
+Evaluation of a small speech-command recognition model under noise, with deployment and validation on **Arduino Nano 33 BLE Sense**.
+
+**My contribution:** TensorFlow Lite Micro deployment, model compatibility and quantization work, Python PC-to-board test campaigns, serial communication, latency and memory measurements. Literature review and interpretation are shared with my teammate, who leads model training and perturbation studies.
+
+**Validated milestone:** identical PC/board predictions on a fixed nominal batch of **500 inputs**, with **75.2% classification accuracy** and approximately **83 ms per inference** on the board. Agreement between platforms is distinct from classification accuracy.
+
+**Next steps:** complete noisy-input campaigns after a serial synchronization issue, and extend adversarial evaluation. Results reflect the project review of 10 November 2026.
+
+`Python` · `TensorFlow Lite Micro` · `INT8` · `Arduino` · `Serial communication` · `CSV`
 
 ## Other projects
 
-| Project | What it does | Stack |
+| Project | Scope and status | Stack |
 |---|---|---|
-| ⚡ [**Distributed STM32 Motor Control**](https://github.com/Mickael235/stm32-distributed-motor-control) *(in progress)* | Closed-loop speed control with CAN telemetry, diagnostics and safe-state handling | `STM32` `FreeRTOS` `CAN` `PID` |
-| 🔬 [**FPGA / VHDL Digital Systems**](https://github.com/Mickael235/fpga-vhdl-digital-systems) | Adders, counters, registers and display decoding, validated on hardware | `VHDL` `Quartus` `ModelSim` `DE10-Standard` |
-| 📡 [**Automated Instrumentation Platform**](https://github.com/Mickael235/automated-instrumentation-platform) | Automated frequency-response measurement with Bode plots and cutoff estimation | `LabVIEW` `CVI` `C` `VISA` `SCPI` `TCP/IP` |
-| 🌡️ [**PIC16F1719 Temperature Control**](https://github.com/Mickael235/pic16f1719-temperature-control) | TMP36 acquisition, averaging, setpoint, LCD feedback and PWM alarm | `PIC16F1719` `Embedded C` `ADC` `PWM` |
-| 💡 [**STM32 Smart Lighting System**](https://github.com/Mickael235/stm32-smart-lighting-system) | PIR presence, LDR light sensing and servo control, with documented integration issues | `STM32` `C` `ADC` `PWM` `UART` |
-
-<!-- Add this row once the repository is published:
-| 🔐 [**Biometric Access-Control System**](https://github.com/Mickael235/REPO-NAME) | PIC16F88 + RS232 biometric access control, PCB and enclosure designed (not manufactured) | `PIC16F88` `KiCad` `SolidWorks` |
--->
-
----
-
-## Currently working on
-
-- ⚙️ **Real-time motor control** — encoder feedback, PID, FreeRTOS architecture, CAN, fault handling
-- 🦾 **ROS2 robotic-arm digital twin** — ROS2 Jazzy, URDF/Xacro, Gazebo Harmonic, ros2_control, MoveIt2
-- 🔐 **TinyML robustness** *(5th-year research project)* — evaluation through hardware fault injection with ChipWhisperer
-
----
+| [**Automated Instrumentation Platform**](https://github.com/Mickael235/automated-instrumentation-platform) | Automated frequency sweeps, gain measurements and cutoff estimation | LabVIEW · CVI · C · VISA/SCPI · TCP/IP |
+| [**FPGA / VHDL Digital Systems**](https://github.com/Mickael235/fpga-vhdl-digital-systems) | Adders, counters, registers and display decoding with hardware validation | VHDL · Quartus · ModelSim · DE10-Standard |
+| [**PIC16F1719 Temperature Monitoring**](https://github.com/Mickael235/pic16f1719-temperature-control) | TMP36 acquisition, averaging, configurable threshold, LCD feedback and PWM alarm | Embedded C · ADC · PWM |
+| [**STM32 Smart Lighting System**](https://github.com/Mickael235/stm32-smart-lighting-system) | PIR sensing, LDR acquisition and servo control; integration issues documented | STM32 · C · ADC · PWM · UART |
+| [**Distributed STM32 Motor Control**](https://github.com/Mickael235/stm32-distributed-motor-control) | In development — targeting closed-loop control, CAN telemetry and fault handling | STM32 · FreeRTOS · CAN · PID |
 
 ## Education & activities
 
-- 🎓 **ENSIM – Le Mans University** — Engineering degree, Embedded and Intelligent Systems
-- 🤖 Member of **ENSIMelec**, ENSIM's robotics team (Coupe de France de Robotique)
+- **ENSIM – Le Mans University** — Final-year engineering student, Embedded and Intelligent Systems.
+- **ENSIMelec** — Member of ENSIM's robotics team, Coupe de France de Robotique.
+- **Robotic-arm digital twin** — Ongoing project exploring simulation, kinematics and motion control; ROS 2 integration in progress.
 
----
+## Contact
 
-## Internship
+Available from **March 2027** for a **6-month internship** in embedded software, robotics, electronics or validation/test engineering.
 
-Looking for a **6-month final-year engineering internship starting March 2027**, in: embedded software · real-time systems · robotics · microcontrollers · FPGA · control systems · embedded electronics · validation / test engineering.
+[**LinkedIn**](https://www.linkedin.com/in/essomba-michael-84b12643b/) · [**Email**](mailto:Michael.Essomba_Jabe.Etu@univ-lemans.fr)
 
-<div align="center">
+<details>
+<summary><b>GitHub activity — 2026 / 2025</b></summary>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-essomba--michael-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/essomba-michael-84b12643b/)
-[![Email](https://img.shields.io/badge/Email-Contact%20me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Michael.Essomba_Jabe.Etu@univ-lemans.fr)
+<img src="https://raw.githubusercontent.com/Mickael235/Mickael235/main/contributions/2026.svg" alt="GitHub contributions in 2026">
 
-</div>
+<img src="https://raw.githubusercontent.com/Mickael235/Mickael235/main/contributions/2025.svg" alt="GitHub contributions in 2025">
+
+</details>
