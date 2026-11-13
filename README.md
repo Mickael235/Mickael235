@@ -38,10 +38,17 @@ My academic and personal projects currently span:
 - **ROS2 simulation and digital twins**
 - **system testing, debugging and technical documentation**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mickael235/Mickael235/output/github-snake-dark.svg" />
-  <img alt="Snake des contributions" src="https://raw.githubusercontent.com/Mickael235/Mickael235/output/github-snake.svg" />
-</picture>
+<details open>
+<summary><b>2026</b></summary>
+
+<img src="https://raw.githubusercontent.com/Mickael235/Mickael235/main/contributions/2026.svg" alt="Contributions 2026" />
+</details>
+
+<details>
+<summary><b>2025</b></summary>
+
+<img src="https://raw.githubusercontent.com/Mickael235/Mickael235/main/contributions/2025.svg" alt="Contributions 2025" />
+</details>
 
 What I value most in engineering is not only making a feature work, but understanding **why it works, how it fails, how it can be measured, and how it can be improved**.
 
