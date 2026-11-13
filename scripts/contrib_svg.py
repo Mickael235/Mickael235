@@ -7,10 +7,10 @@ START_YEAR = 2025          # première année à afficher
 CELL, GAP = 11, 3
 COLORS = {
     "NONE": "#ebedf0",
-    "FIRST_QUARTER": "#9be9a8",
-    "SECOND_QUARTER": "#40c463",
-    "THIRD_QUARTER": "#30a14e",
-    "FOURTH_QUARTER": "#216e39",
+    "FIRST_QUARTILE": "#9be9a8",
+    "SECOND_QUARTILE": "#40c463",
+    "THIRD_QUARTILE": "#30a14e",
+    "FOURTH_QUARTILE": "#216e39",
 }
 QUERY = """
 query($login:String!,$from:DateTime!,$to:DateTime!){
